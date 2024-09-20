@@ -20,7 +20,7 @@ let cardsEl = document.getElementById("cards-el")
 
 
 let PlayerEl = document.getElementById("player-el")
-PlayerEl.textContent = player.name + ": $" + player.chips
+//PlayerEl.textContent = player.name + ": $" + player.chips
 
 function getRandomCard() {
     draw = Math.floor(Math.random()*13) + 1
